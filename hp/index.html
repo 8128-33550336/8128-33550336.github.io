@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <title>ここにタイトル (タブのところに表示されます。)</title>
+    </head>
+    <body>
+        htmlのなかではわりと改行や空白は自由です。
+        一行の最初に空白を開けていますが，あまり意味はないです。
+
+        <a href="#code">htmlのコードはここから見れます。</a>
+        <h1>大きな文字にしたり</h1>
+
+        <h2>少し大きな文字</h2>
+
+        <h6>小さめの文字</h6>
+
+        <p>
+            これは段落
+            長い文章長い文章長い文章長い文章長い文章長い文章
+            長い文章長い文章長い文章長い文章長い文章長い文章
+            長い文章長い文章長い文章長い文章長い文章長い文章
+            長い文章長い文章長い文章長い文章長い文章長い文章
+
+            htmlで改行すると空白として表示されます。
+
+            これが改行です<br>
+            改行されます<br>←改行するものです。
+        </p>
+
+        リンクは次のようになります。
+        <a href="/">トップへ</a><br>
+
+        <a href="/sub">sub/index.html</a><br>
+
+        <a href="https://www.htmq.com/htmls/">https://www.htmq.com/htmls/ のサイト</a>を見ると参考になります。<br>
+        <a href="https://developer.mozilla.org/ja/docs/Web/HTML/Element">https://developer.mozilla.org/ja/docs/Web/HTML/Element のサイトも参考になります。</a><br>
+
+        <img src="/image2.png" alt="">
+        image2.pngという画像を表示します。<br>
+
+        この下に横線
+        <hr>
+        上に横線<br>
+
+        <b>太字</b><br>
+        <i>斜体</i><br>
+        <u>下線</u><br>
+        <s>取り消し線</s><br>
+
+        ふりがな(ルビ)を振ることができます。<br>
+        <ruby>
+            清<rt>せい</rt>
+            真<rt>しん</rt>
+        </ruby><br>
+
+        箇条書き
+        <ul>
+            <li>りんご</li>
+            <li>ばなな</li>
+            <li>いちご</li>
+        </ul>
+
+        番号付き
+        <ol>
+            <li>一つ目</li>
+            <li>ふたつめ</li>
+            <li>3番</li>
+        </ol>
+
+        下に動画
+        <video src="/movie.mp4"></video>
+        上に動画<br>
+
+        下に音
+        <audio src="/sound.mp3">見えない時に代わりに表示されるものなので,ここは書かなくてもいいです</audio>
+        上に音<br>
+
+        <!--
+            ここに書いたものは表示されません。
+
+            図書館で清真学園 紀要を探すといい
+
+            上の文字は表示されません。
+
+            コメント(コメントアウト)と言います。
+        -->
+
+        <div>divは箱のようなものでグループ化できます。</div>
+
+        一部のWebサイトではうめこみができます <br>
+        <iframe src="https://www.seishin-web.jp/" frameborder="0"></iframe>
+
+        <div>
+            <div>
+                YouTubeで右クリックして"埋め込みコードをコピー"というところを押すと埋め込めます。
+            </div>
+
+            <iframe width="1280" height="720" src="https://www.youtube.com/embed/3eAKO6ABIBY" title="液体窒素の実験(10/10ｵｰﾌﾟﾝｽｸｰﾙ）" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+
+        <div>
+            <div>
+                google map で共有の地図を埋め込むで
+            </div>
+
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3228.7732678589628!2d140.63212397640817!3d35.97696831367061!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x602255a1059c18eb%3A0x29e8c37126fbfc78!2z5riF55yf5a2m5ZyS6auY562J5a2m5qCh44O75Lit5a2m5qCh!5e0!3m2!1sja!2sjp!4v1713272980100!5m2!1sja!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+
+        <details>
+            <summary>折りたたみ要素</summary>
+            中に文章
+        </details>
+
+        <h3>ここより下ではcssを使っています。</h3>
+
+        <p>
+            色をつける<br>
+            <span style="color: red;">赤</span>
+            <span style="color: blue;">青</span>
+            <span style="color: yellow;">黄</span>
+            <span style="color: orange;">オレンジ</span><br>
+
+            背景<br>
+            <span style="background: red;">赤</span>
+            <span style="background: blue;">青</span>
+            <span style="background: yellow;">黄</span>
+            <span style="background: orange;">オレンジ</span><br>
+
+            他にも<a href="https://developer.mozilla.org/ja/docs/Web/CSS/named-color">このサイト</a>によく載っています。
+
+            背景<br>
+            <span style="font-size: 0.7pc;">少し小さく</span>
+            <span style="font-size: 0.2pc">とても小さく</span>
+            <span style="font-size: xx-large;">大さく</span>
+            <span style="font-size: 3pc">とても大さく</span><br>
+        </p>
+
+        <p>
+            pxやpcは長さの単位です。cmなども使えます。<br>
+            width: 50%;とすることで囲っている要素の半分の横幅になります。<br>
+            width: 50vw;で画面の半分になります。
+        </p>
+
+        <div style="border: solid 1px black;">
+            枠をつける
+        </div>
+
+        <div style="border: solid 3px black;color: blue;">
+            複数のcssの間には<b>;</b>セミコロンが必要です
+        </div>
+
+        <div style="border: solid 1px black;width: 600px;">
+            幅を設定
+        </div>
+
+        <div style="border: solid 1px black;width: 600px;height: 200px;">
+            高さも設定
+        </div>
+
+        <div style="border: solid 1px black;width: 600px;height: 200px;margin: 50px;">
+            まわりに余白
+        </div>
+
+        <div style="border: solid 1px black;width: 600px;height: 200px;padding: 50px;">
+            内側に余白
+        </div>
+
+        <div style="border: solid 1px black;width: 600px;height: 200px;padding: 50px; border-radius: 50px;">
+            角丸になります
+        </div>
+
+        <div class="class1">クラスというものを設定すると分けて書くことができます。htmlを読みやすくできます。</div>
+
+        <style>
+            .class1 {
+                background: lightblue;
+                width: 400px;
+                height: 150px;
+                padding: 30px;
+                margin: 30px;
+            }
+
+            /* この中にはhtmlは書けません cssがかけます。
+            cssのコメントはこのように書きます。
+            */
+        </style>
+
+        <div class="abcde">クラスは1つのファイルの中で何回も使うことができます。</div>
+
+        <style>
+            .abcde {
+                color: brown;
+                width: 400px;
+                height: 150px;
+                padding: 30px;
+                margin: 30px;
+            }
+        </style>
+
+        <div id="id1">idというものを設定することもできます。</div>
+
+        <style>
+            #id1 {
+                background: lightgreen;
+                width: 400px;
+                height: 150px;
+                border-radius: 30px;
+                padding: 30px;
+                margin: 30px;
+            }
+        </style>
+
+        <div id="id2">idは1つのファイルの中で1回しか使うことができません。</div>
+
+        <style>
+            #id2 {
+                width: 400px;
+                height: 150px;
+                padding: 30px;
+                margin: 30px;
+                border-radius: 30px;
+                box-shadow: 0px 0px 20px 5px gainsboro;
+            }
+        </style>
+
+        横並びにできます。
+        <div class="親">
+            <div class="子">左</div>
+            <div class="子">右</div>
+        </div>
+
+        <style>
+            .親 {
+                display: flex;
+            }
+
+            .子 {
+                flex: none;
+                width: 200px;
+                height: 100px;
+                padding: 30px;
+                margin: 30px;
+                border-radius: 30px;
+                box-shadow: 0px 0px 20px 5px gainsboro;
+            }
+        </style>
+
+        <div id="code"></div>
+        <details>
+            <summary>コードを見る</summary>
+            右クリック -> 検証でもみれます。
+            <pre><code id="c"></code></pre>
+        </details>
+        <script>window.c.textContent = '<!DOCTYPE html>\n' + document.documentElement.outerHTML;</script>
+    </body>
+</html>
