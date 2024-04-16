@@ -107,6 +107,13 @@
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3228.7732678589628!2d140.63212397640817!3d35.97696831367061!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x602255a1059c18eb%3A0x29e8c37126fbfc78!2z5riF55yf5a2m5ZyS6auY562J5a2m5qCh44O75Lit5a2m5qCh!5e0!3m2!1sja!2sjp!4v1713272980100!5m2!1sja!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
 
+        <div>twitter (x)</div>
+
+        <blockquote class="twitter-tweet">
+            <p lang="ja" dir="ltr">おーろく先生「あっまたチョーク折れちゃった…今日は湿気が多いからかな～？」</p>&mdash; 清真名言(迷言)bot (@ssmeigen) <a href="https://twitter.com/ssmeigen/status/1634770704792166401?ref_src=twsrc%5Etfw">March 12, 2023</a>
+        </blockquote>
+        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
         <details>
             <summary>折りたたみ要素</summary>
             中に文章
@@ -252,12 +259,9 @@
             <a href="https://codepen.io/">https://codepen.io/</a>のサイトも便利です
         </div>
 
-        <details id="code">
-            <!-- 同じファイル内へのリンクもできます。#idとするとできます。-->
-            <summary>コードを見る</summary>
-            右クリック -> 検証でもみれます。
-            <pre><code id="c"></code></pre>
-        </details>
+        <div id="code">コードを見る</div>
+        <pre style="width: 100%; overflow-x: scroll;background: lightgray;"><code id="c"></code></pre>
+
         <script>window.onload = () => window.c.textContent = '<!DOCTYPE html>\n<html lang="ja">\n    ' + document.documentElement.innerHTML + '\n</html>';</script>
     </body>
 </html>
