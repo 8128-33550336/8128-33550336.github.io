@@ -253,6 +253,40 @@
             }
         </style>
 
+        aタグ(リンクの見た目を変える)
+
+        <a href="/" id="link">
+            トップページへ
+        </a>
+
+        <style>
+            #link {
+                display: block;
+                border-radius: 20px;
+                /* 角丸 */
+                width: 300px;
+                height: 50px;
+                background: orange;
+                /* 背景色 */
+                text-align: center;
+                /* 中央揃え */
+                padding: 15px;
+                /* 内側の余白 */
+                font-size: 2pc;
+                /* 文字の大きさ */
+                color: white;
+                /* 文字色 */
+                text-decoration: none;
+                /* 下線などの文字の装飾をなくす */
+                box-shadow: 0px 0px 20px 5px gainsboro;
+            }
+
+            #link:hover {
+                /* マウスが上にある時 */
+                box-shadow: 0px 0px 5px 5px lightgray;
+            }
+        </style>
+
         <div>
             書く時はvisual studio codeなどで書いてChromeで再読み込みをするということを繰り返します。
 
